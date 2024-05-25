@@ -1,0 +1,33 @@
+.detailContainer {
+}
+.article {
+  white-space: pre-line;
+  font-family: Metropolis, -apple-system, "system-ui", "San Francisco",
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.detailMain {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.articleTitle {
+  font-family: Metropolis, -apple-system, "system-ui", "San Francisco",
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 44px;
+  margin: 20px 0 8px 0;
+  font-weight: 200;
+}
+.articleImg {
+  margin: 0 20px 20px 20px;
+}
+.imgLeft {
+  float: left;
+  margin-left: 0;
+}
+.imgRight {
+  float: right;
+  margin-right: 0;
+}

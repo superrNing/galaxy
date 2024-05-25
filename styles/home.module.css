@@ -1,0 +1,37 @@
+.detailContainer {
+  margin-top: 18px;
+  display: flex;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #eaeaea;
+  flex-wrap: wrap;
+}
+.detailImgWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .detailImg {
+    max-width: 100% !important;
+  }
+  .carouselContainer {
+    max-width: 100% !important;
+  }
+}
+.detailImg {
+  max-width: 60vw;
+  height: auto;
+}
+.carouselContainer {
+  max-width: 26vw;
+  margin-left: 40px;
+  .carouselTitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+}
+.carouselContainer article a {
+  color: #2b8dff;
+}
